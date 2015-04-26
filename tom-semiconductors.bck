@@ -4,4 +4,8 @@ $CMP AP2204
 F http://www.mouser.com/ds/2/495/MIC550X-315981.pdf
 $ENDCMP
 #
+$CMP PBSS4021NT
+F transistors/bipolar/*.*
+$ENDCMP
+#
 #End Doc Library
