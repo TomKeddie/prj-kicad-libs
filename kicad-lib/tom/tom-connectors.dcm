@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AVR-ISP-6
+D Standard IDC6 Male Connector, ATMEL ISP 6pin
+K IDC6 Male Connector
+$ENDCMP
+#
+$CMP ISP-6
+D Standard IDC6 Male Connector, ATMEL ISP 6pin
+K IDC6 Male Connector
+$ENDCMP
+#
+$CMP MicroSD
+F http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
+$ENDCMP
+#
+#End Doc Library
