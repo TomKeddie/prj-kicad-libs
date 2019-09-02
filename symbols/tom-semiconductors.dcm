@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP FAN5702UM
+F https://www.onsemi.com/pub/Collateral/FAN5702-D.pdf
+$ENDCMP
+#
 $CMP LED
 D Light emitting diode
 K LED diode
