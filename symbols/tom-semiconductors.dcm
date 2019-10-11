@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP APA102
+D RGB LED with integrated controller
+K RGB LED addressable 8bit pwm 5bit greyscale
+F http://www.led-color.com/upload/201506/APA102%20LED.pdf
+$ENDCMP
+#
 $CMP FAN5702UM
 F https://www.onsemi.com/pub/Collateral/FAN5702-D.pdf
 $ENDCMP
@@ -8,6 +14,11 @@ $CMP LED
 D Light emitting diode
 K LED diode
 F ~
+$ENDCMP
+#
+$CMP W25Q128
+D External EEPROM with SPI interface in 8-pin package
+K EEPROM memory SPI serial
 $ENDCMP
 #
 #End Doc Library
