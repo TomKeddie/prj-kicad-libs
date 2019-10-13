@@ -1,4 +1,4 @@
-(module PMOD_2X6_PTH_RA_SOCKET (layer F.Cu) (tedit 5C2B1F9E)
+(module PMOD_2X6_PTH_RA_SOCKET (layer F.Cu) (tedit 5DA386D0)
   (attr smd)
   (fp_text reference J2 (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -23,4 +23,9 @@
   (pad 11 thru_hole oval (at -3.81 1.27 270) (size 2.54 1.7) (drill 1 (offset 0.4 0)) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at -6.35 -1.27 270) (size 2.54 1.7) (drill 1 (offset -0.4 0)) (layers *.Cu *.Mask))
   (pad 12 thru_hole oval (at -6.35 1.27 270) (size 2.54 1.7) (drill 1 (offset 0.4 0)) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/tom-kicad/footprints/3dmodels/SFH11-xxPC-D06-RA-BK.STEP
+    (offset (xyz -6.4 11.5 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 -90 180))
+  )
 )
