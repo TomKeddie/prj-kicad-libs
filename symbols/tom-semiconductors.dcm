@@ -136,12 +136,6 @@ $CMP FAN5702UM
 F https://www.onsemi.com/pub/Collateral/FAN5702-D.pdf
 $ENDCMP
 #
-$CMP LED
-D Light emitting diode
-K LED diode
-F ~
-$ENDCMP
-#
 $CMP W25Q128
 D External EEPROM with SPI interface in 8-pin package
 K EEPROM memory SPI serial
