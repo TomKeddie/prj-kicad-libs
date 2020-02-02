@@ -36,6 +36,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_02x08_Odd_Even
+D Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro
