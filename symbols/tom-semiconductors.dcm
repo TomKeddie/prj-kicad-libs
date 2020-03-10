@@ -132,8 +132,16 @@ K RGB LED addressable 8bit pwm 5bit greyscale
 F http://www.led-color.com/upload/201506/APA102%20LED.pdf
 $ENDCMP
 #
+$CMP FAN53541
+F https://www.onsemi.com/pub/Collateral/FAN53541-D.pdf
+$ENDCMP
+#
 $CMP FAN5702UM
 F https://www.onsemi.com/pub/Collateral/FAN5702-D.pdf
+$ENDCMP
+#
+$CMP LP5907MFX
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
 $ENDCMP
 #
 $CMP W25Q128
