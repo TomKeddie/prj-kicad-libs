@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP E6C1206RGBC3UDA
+D LCSC RGB LED 1206
+K LED RGB SMD
+F https://datasheet.lcsc.com/szlcsc/1912111437_EKINGLUX-E6C1206RGBC3UDA_C375571.pdf
+$ENDCMP
+#
 $CMP LED
 D Light emitting diode
 K LED diode
