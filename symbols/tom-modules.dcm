@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TPS82130SILT
+D 3A Step-Down Converter (Vin 3-17)(Vout 0.9-6)
+F http://www.ti.com/lit/ds/symlink/tps82130.pdf
+$ENDCMP
+#
 #End Doc Library
