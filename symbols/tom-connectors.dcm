@@ -60,6 +60,12 @@ K usb universal serial bus
 F ~
 $ENDCMP
 #
+$CMP USB3_A_AS_PCIE
+D USB 3.0 A connector
+K usb universal serial bus
+F ~
+$ENDCMP
+#
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro
