@@ -54,6 +54,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_02x22_Odd_Even
+D Generic connector, double row, 02x22, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP USB3_A
 D USB 3.0 A connector
 K usb universal serial bus
