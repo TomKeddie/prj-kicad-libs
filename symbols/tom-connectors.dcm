@@ -72,6 +72,12 @@ K usb universal serial bus
 F ~
 $ENDCMP
 #
+$CMP USB_A
+D USB Type A connector
+K connector USB
+F  ~
+$ENDCMP
+#
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro
