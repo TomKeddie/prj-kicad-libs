@@ -12,6 +12,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LTV-826S
+D Dual AC/DC Optocoupler, Vce 35V, CTR 20%, DIP8
+K Dual NPN AC DC Optocoupler
+F ~
+$ENDCMP
+#
 $CMP SLD161616DRA2B
 D 16x16 LED Matrix lcsc
 F https://datasheet.lcsc.com/szlcsc/1810191633_SUNLIGHT-SLD161616DRA2B_C225987.pdf
