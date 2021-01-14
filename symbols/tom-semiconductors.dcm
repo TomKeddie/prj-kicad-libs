@@ -378,6 +378,10 @@ $CMP FAN5702UM
 F https://www.onsemi.com/pub/Collateral/FAN5702-D.pdf
 $ENDCMP
 #
+$CMP IP2721
+F https://datasheet.lcsc.com/szlcsc/2006111335_INJOINIC-IP2721_C603176.pdf
+$ENDCMP
+#
 $CMP IRLML5203
 D -3.0A Id, -30V Vds, P-Channel HEXFET Power MOSFET, 98mOhm Rds, SOT-23
 K P-Channel MOSFET
