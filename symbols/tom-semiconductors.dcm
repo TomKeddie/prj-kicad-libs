@@ -432,6 +432,10 @@ K P-Channel MOSFET
 F https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf
 $ENDCMP
 #
+$CMP USB2514B-AEZG-TR
+D Microchip 4 port USB HUB
+$ENDCMP
+#
 $CMP VP0610T
 D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET

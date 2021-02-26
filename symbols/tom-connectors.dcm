@@ -40,6 +40,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_01x08
+D Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_01x09_Male
 D Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector

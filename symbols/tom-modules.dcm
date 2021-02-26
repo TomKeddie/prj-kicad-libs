@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ESP-07S
+D ESP8266 ESP-07S module, 16 pins, 2mm, IPX antenna connector
+K MODULE ESP8266 ESP-8266
+F https://www.tinyosshop.com/datasheet/ESP-07S_User_Manual.pdf
+$ENDCMP
+#
+$CMP ESP-07v2
+D ESP8266, ESP-07v2 module, 16 pin, 2mm, ceramic antenna
+K MODULE  ESP8266  ESP-8266
+F http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/
+$ENDCMP
+#
+$CMP ESP-12
+D ESP8266 ESP-12 module, 16 pins, 2mm, PCB antenna
+K MODULE ESP8266 ESP-8266
+F http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/
+$ENDCMP
+#
 $CMP TPS821x0SILT
 D 3A Step-Down Converter (Vin 3-17)(Vout 0.9-6)
 F http://www.ti.com/lit/ds/symlink/tps82130.pdf
