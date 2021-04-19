@@ -24,6 +24,12 @@ K diode
 F http://www.vishay.com/docs/85622/1n914.pdf
 $ENDCMP
 #
+$CMP 27C040
+D OTP EPROM 4 MiBit (512 Ki x 8)
+K OTP EPROM 4MiBit
+F http://ww1.microchip.com/downloads/en/devicedoc/doc0189.pdf
+$ENDCMP
+#
 $CMP 74HC595
 D 8-bit serial in/out Shift Register 3-State Outputs
 K HCMOS SR 3State
@@ -376,6 +382,21 @@ $ENDCMP
 #
 $CMP FAN5702UM
 F https://www.onsemi.com/pub/Collateral/FAN5702-D.pdf
+$ENDCMP
+#
+$CMP GAL16V8
+D Programmable Logic Array, DIP-20/SOIC-20/PLCC-20
+K GAL PLD 16V8
+$ENDCMP
+#
+$CMP GAL22V10
+D Programmable Logic Array, DIP-24, SOIC-24
+K GAL PLD 22V10
+$ENDCMP
+#
+$CMP GAL22V10PLCC
+D Programmable Logic Array, PLCC-28
+K GAL PLD 22V10
 $ENDCMP
 #
 $CMP IP2721
