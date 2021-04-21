@@ -1,10 +1,10 @@
-(module STUD_SOLDER_M3 (layer F.Cu) (tedit 607CEB3E)
+(module STUD_SOLDER_M3 (layer F.Cu) (tedit 607CF6FD)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value STUD_SOLDER_M3 (at 0 -0.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "" smd circle (at 0 0) (size 8 8) (layers F.Cu F.Paste F.Mask))
-  (pad "" np_thru_hole circle (at 0 0) (size 0.85 0.85) (drill 0.85) (layers *.Cu *.Mask))
+  (pad 1 smd circle (at 0 0) (size 8 8) (layers F.Cu F.Paste F.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 0.85) (layers *.Cu *.Mask))
 )
