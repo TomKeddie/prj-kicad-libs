@@ -1,4 +1,6 @@
-(module STUD_SOLDER_M3 (layer F.Cu) (tedit 607CF6FD)
+(module STUD_SOLDER_M3 (layer F.Cu) (tedit 60860D26)
+  (descr "SMD Standoff Aliexpress")
+  (attr smd)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

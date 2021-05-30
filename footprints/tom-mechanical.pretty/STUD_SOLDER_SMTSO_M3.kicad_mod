@@ -1,0 +1,16 @@
+(module STUD_SOLDER_SMTSO_M3 (layer F.Cu) (tedit 60B2D741)
+  (descr "SMD Standoff Aliexpress")
+  (attr smd)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value STUD_SOLDER_SMTSO_M3 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 7 7) (drill 4.5) (layers *.Cu *.Mask))
+  (model /home/tom/git/TomKeddie/prj-pcb-experiments/tom-kicad/footprints/3dmodels/SMTSO-M3-10ET-PennEngineering-3D-05-29-2021.stp
+    (offset (xyz 0 0 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 90 0))
+  )
+)
