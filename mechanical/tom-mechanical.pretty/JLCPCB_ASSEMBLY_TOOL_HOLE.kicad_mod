@@ -1,10 +1,14 @@
-(module JLCPCB_ASSEMBLY_TOOL_HOLE (layer F.Cu) (tedit 5F307623)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+(footprint "JLCPCB_ASSEMBLY_TOOL_HOLE" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5e1f5091-b217-4a0c-887d-0712e947faa9)
   )
-  (fp_text value JLCPCB_ASSEMBLY_TOOL_HOLE (at 0 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value "JLCPCB_ASSEMBLY_TOOL_HOLE" (at 0 -0.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ddcce01c-2b2f-4b71-852c-d57a5f23b2e6)
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers *.Cu *.Mask)
-    (solder_mask_margin 0.148))
+  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers "F&B.Cu" "*.Mask")
+    (solder_mask_margin 0.148) (clearance 0.248) (tstamp 78c8aac9-83d7-467a-85b3-4f1b57a29dfc))
 )
