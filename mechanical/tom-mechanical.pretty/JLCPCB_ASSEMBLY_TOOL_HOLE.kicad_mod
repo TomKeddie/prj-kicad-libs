@@ -1,5 +1,6 @@
 (footprint "JLCPCB_ASSEMBLY_TOOL_HOLE" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+<<<<<<< Updated upstream
   (attr through_hole)
   (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11,4 +12,17 @@
   )
   (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers "F&B.Cu" "*.Mask")
     (solder_mask_margin 0.148) (clearance 0.248) (tstamp 78c8aac9-83d7-467a-85b3-4f1b57a29dfc))
+=======
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 21c9c617-8d6f-47f8-b37a-132f080a8e2a)
+  )
+  (fp_text value "JLCPCB_ASSEMBLY_TOOL_HOLE" (at 0 -0.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1cfa3c60-3587-485f-a05c-e7b77a5a3680)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1.4 1.4) (drill 1.152) (layers "*.Mask")
+    (solder_mask_margin 0.148) (tstamp ed8b7458-2f03-4d20-8a7c-f55552c148c6))
+>>>>>>> Stashed changes
 )
